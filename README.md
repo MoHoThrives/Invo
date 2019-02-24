@@ -21,7 +21,7 @@ Invo is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/xpne75y"><a href="//imgur.com/xpne75y"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<img src="http://g.recordit.co/9tomjqSdmu.gif" width=250><br>
 
 ### Notes
 - Had to change http to https to make sure the images load
