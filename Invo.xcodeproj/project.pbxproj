@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		299BB21FE5D2C2CD0CC43699 /* Pods_Invo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E29FAFC6D1EAF1F0A39B9CE /* Pods_Invo.framework */; };
 		A40CC03B2221B01200826341 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40CC03A2221B01200826341 /* AppDelegate.swift */; };
-		A40CC03D2221B01200826341 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40CC03C2221B01200826341 /* ViewController.swift */; };
 		A40CC0402221B01200826341 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40CC03E2221B01200826341 /* Main.storyboard */; };
 		A40CC0422221B01300826341 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40CC0412221B01300826341 /* Assets.xcassets */; };
 		A40CC0452221B01300826341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40CC0432221B01300826341 /* LaunchScreen.storyboard */; };
+		A40CC04D2221DA9F00826341 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40CC04C2221DA9F00826341 /* MoviesViewController.swift */; };
+		A40CC04F22225EA700826341 /* MovieCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40CC04E22225EA700826341 /* MovieCellTableViewCell.swift */; };
+		A4768C9B222B3B5900D9441A /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4768C9A222B3B5900D9441A /* MovieDetailsViewController.swift */; };
+		A4768C9D222C87C200D9441A /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4768C9C222C87C200D9441A /* MovieGridViewController.swift */; };
+		A4768C9F222CB19C00D9441A /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4768C9E222CB19C00D9441A /* MovieGridCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E29FAFC6D1EAF1F0A39B9CE /* Pods_Invo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Invo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0FBEBF75E43D0DAD08F22ED /* Pods-Invo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Invo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Invo/Pods-Invo.release.xcconfig"; sourceTree = "<group>"; };
+		A2ACC04A3BA458AC199CC370 /* Pods-Invo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Invo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Invo/Pods-Invo.debug.xcconfig"; sourceTree = "<group>"; };
 		A40CC0372221B01200826341 /* Invo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Invo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A40CC03A2221B01200826341 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A40CC03C2221B01200826341 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A40CC03F2221B01200826341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A40CC0412221B01300826341 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A40CC0442221B01300826341 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A40CC0462221B01300826341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40CC04C2221DA9F00826341 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		A40CC04E22225EA700826341 /* MovieCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCellTableViewCell.swift; sourceTree = "<group>"; };
+		A4768C9A222B3B5900D9441A /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		A4768C9C222C87C200D9441A /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		A4768C9E222CB19C00D9441A /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				299BB21FE5D2C2CD0CC43699 /* Pods_Invo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EDD969FD81445974510D2E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E29FAFC6D1EAF1F0A39B9CE /* Pods_Invo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A40CC02E2221B01200826341 = {
 			isa = PBXGroup;
 			children = (
 				A40CC0392221B01200826341 /* Invo */,
 				A40CC0382221B01200826341 /* Products */,
+				F3998F832101C8DFC53E9EEA /* Pods */,
+				7EDD969FD81445974510D2E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +78,26 @@
 			isa = PBXGroup;
 			children = (
 				A40CC03A2221B01200826341 /* AppDelegate.swift */,
-				A40CC03C2221B01200826341 /* ViewController.swift */,
 				A40CC03E2221B01200826341 /* Main.storyboard */,
+				A40CC04E22225EA700826341 /* MovieCellTableViewCell.swift */,
 				A40CC0412221B01300826341 /* Assets.xcassets */,
 				A40CC0432221B01300826341 /* LaunchScreen.storyboard */,
 				A40CC0462221B01300826341 /* Info.plist */,
+				A40CC04C2221DA9F00826341 /* MoviesViewController.swift */,
+				A4768C9A222B3B5900D9441A /* MovieDetailsViewController.swift */,
+				A4768C9C222C87C200D9441A /* MovieGridViewController.swift */,
+				A4768C9E222CB19C00D9441A /* MovieGridCell.swift */,
 			);
 			path = Invo;
+			sourceTree = "<group>";
+		};
+		F3998F832101C8DFC53E9EEA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2ACC04A3BA458AC199CC370 /* Pods-Invo.debug.xcconfig */,
+				A0FBEBF75E43D0DAD08F22ED /* Pods-Invo.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A40CC0492221B01300826341 /* Build configuration list for PBXNativeTarget "Invo" */;
 			buildPhases = (
+				CFAE7C35BFDE5306371341E2 /* [CP] Check Pods Manifest.lock */,
 				A40CC0332221B01200826341 /* Sources */,
 				A40CC0342221B01200826341 /* Frameworks */,
 				A40CC0352221B01200826341 /* Resources */,
+				475BC1848B1365634BCCFF03 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +168,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		475BC1848B1365634BCCFF03 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Invo/Pods-Invo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Invo/Pods-Invo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFAE7C35BFDE5306371341E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Invo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A40CC0332221B01200826341 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A40CC03D2221B01200826341 /* ViewController.swift in Sources */,
+				A4768C9D222C87C200D9441A /* MovieGridViewController.swift in Sources */,
+				A4768C9B222B3B5900D9441A /* MovieDetailsViewController.swift in Sources */,
+				A40CC04F22225EA700826341 /* MovieCellTableViewCell.swift in Sources */,
 				A40CC03B2221B01200826341 /* AppDelegate.swift in Sources */,
+				A4768C9F222CB19C00D9441A /* MovieGridCell.swift in Sources */,
+				A40CC04D2221DA9F00826341 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +363,7 @@
 		};
 		A40CC04A2221B01300826341 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2ACC04A3BA458AC199CC370 /* Pods-Invo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +382,7 @@
 		};
 		A40CC04B2221B01300826341 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0FBEBF75E43D0DAD08F22ED /* Pods-Invo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
